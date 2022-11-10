@@ -15,7 +15,7 @@ class TodoController extends Controller
     public function index()
     {
         //untuk menampilkan halaman awal & semua data
-        return view('login');
+        return view('layout');
     }
 
     /**
